@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+.page--container {
+    height: 100%;
+    width: 100%;
+}
+
+.nav--image {
+    width: 30px;
+    display: flex;
+    align-self: center;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.nav--container {
+    flex: 230px;
+    width: 230px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #347ab4;
+    color: #fff;
+}
+
+.nav--container > a {
+    padding: 10px;
+    align-self: center;
+}
+
+.page--footer {
+    height: 40px;
+    width: 100%;
+    background-color: #ededed;
+}
+
+.footer--container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer--right {
+    padding-right: 10px;
+    padding-left: auto;
+    float: inline-end;
+}
